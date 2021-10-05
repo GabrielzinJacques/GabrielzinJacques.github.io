@@ -1,0 +1,14 @@
+
+.titles{
+    font-family: 'Carter One', cursiva;
+    padding: 20px;
+    background-color: rgba(133, 16, 55, 0.589);
+    color: black;
+}
+
+
+body{
+    font-family:'Carter One', cursiva;
+    background-size: cover;
+    background-image: url(images/background\ branco.jpg);
+}
