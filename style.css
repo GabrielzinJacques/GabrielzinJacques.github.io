@@ -1,14 +1,42 @@
 
 .titles{
-    font-family: 'Carter One', cursiva;
-    padding: 20px;
-    background-color: rgba(133, 16, 55, 0.589);
+    font-size: 2em;
+    font-family:'Gluten', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    
     color: black;
 }
 
+.subtitleh1{
+    text-align: center;
+    margin-top: -25px;
+    font-weight: 500
+    
+}
+.button{
+    font-family: ;
+}
+.image{
+    margin-top: auto;
+    margin-bottom: 35px;
+    border-radius: 400px;
+    
+}
+ul{
+    text-align: center;
+    list-style: none;
+    }
+
+    p{
+        text-align: center;
+    }
+
 
 body{
-    font-family:'Carter One', cursiva;
+    font-size: 20px;
+    margin-top: 100px;
+    font-family:'Gluten', cursive;
     background-size: cover;
     background-image: url(images/background\ branco.jpg);
 }
