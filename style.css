@@ -1,42 +1,52 @@
-
-.titles{
-    font-size: 2em;
-    font-family:'Gluten', cursive;
-    text-align: center;
-    letter-spacing: 2px;
-    
-    color: black;
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
-.subtitleh1{
-    text-align: center;
-    margin-top: -25px;
-    font-weight: 500
-    
+header {
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(images/Polígonos\ colorido.png);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  width: 100%;
+  padding: 20px 20px;
+  /* position: fixed; */
+  
 }
-.button{
-    font-family: ;
-}
-.image{
-    margin-top: auto;
-    margin-bottom: 35px;
-    border-radius: 400px;
-    
-}
-ul{
-    text-align: center;
-    list-style: none;
-    }
 
-    p{
-        text-align: center;
-    }
-
-
-body{
-    font-size: 20px;
-    margin-top: 100px;
-    font-family:'Gluten', cursive;
-    background-size: cover;
-    background-image: url(images/background\ branco.jpg);
+header nav {
+  margin-right: 30px;
 }
+
+h1 {
+  opacity: 1;
+  padding: 0 10px;
+  font-size: 45px;
+  color: white;
+  margin-left: 10px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+a:hover {
+  opacity: 1;
+  font-weight: bolder
+}
+
+a:visited,
+a:hover,
+a:active {
+  color: white;
+}
+
