@@ -33,14 +33,14 @@ header nav {
 h1 {
   opacity: 1;
   padding: 0 10px;
-  font-size: 60px;
+  font-size: 65px;
   color: white;
   margin-left: 10px;
 }
 
 a {
   opacity: 1;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   text-decoration: none;
   color: white;
@@ -96,17 +96,22 @@ section.master-li {
 
 section img {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 180px;
   border-radius: 30px;
 }
 
 h2 {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 p {
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+li {
+  font-size: 25px;
 }
