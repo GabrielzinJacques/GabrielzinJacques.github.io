@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 
-
 body {
   display: flex;
   flex-direction: column;
@@ -26,7 +25,6 @@ header {
   padding: 10px 10px;
   position: fixed;
   z-index: 1;
-  
 }
 
 header nav {
@@ -67,17 +65,21 @@ main {
   width: 100%;
   height: 100%;
   margin-top: 140px;
-  
 }
 
 section img {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   width: 190px;
   border-radius: 30px;
 }
 
+h2.objetivos {
+  padding: 10px 0 15px;
+  
+}
+
 section.topicos {
-  padding: 50px 0 30px;
+  padding: 50px 0 60px;
   display: flex;
   flex-direction: column;
   margin: 0 130px 0;
@@ -86,12 +88,13 @@ section.topicos {
 }
 
 section.skills {
-  padding: 50px 0 30px;
+  padding: 80px 0 20px;
   display: flex;
   justify-content: space-evenly;
 }
 
 section.master-li {
+  padding-bottom: 60px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -99,7 +102,7 @@ section.master-li {
 /* <<<<<!>>>>>>> */
 
 section.topicos-projetos {
-  padding: 50px 0 30px;
+  padding: 40px 0 70px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -107,9 +110,9 @@ section.topicos-projetos {
 }
 
 div.projetos {
+  margin-top: -15px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .nomes-projetos {
@@ -119,22 +122,17 @@ div.projetos {
 }
 
 div img {
-  box-shadow: 1px 1px 10px black ;
+  box-shadow: 1px 1px 15px black ;
   margin: 0 10px;
   width: 350px;
   height: 200px;
 }
 
 #h2projetos {
-  padding: 50px 0 30px;
+  margin-top: 70px;
   text-align: center;
 }
-
 /* <<<<<!>>>>>>> */
-
-h2.objetivos {
-  margin-bottom: 50px;
-}
 
 h2 {
   font-size: 45px;
@@ -144,6 +142,23 @@ p {
   font-size: 25px;
 }
 
-li {
+main li {
   font-size: 25px;
+}
+/* <<<<<!>>>>>>> */
+hr {
+  display: flex;
+  margin: 80px 35% 0;
+
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer i {
+  font-size: 30px;
+  padding: 5px;
 }
